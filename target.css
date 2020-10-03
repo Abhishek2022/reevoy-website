@@ -8,6 +8,17 @@
     src: url(assets/fonts/Montserrat-Bold.otf);
 }
 
+@font-face {
+    font-family: Montserrat-SemiBold;
+    src: url(assets/fonts/Montserrat-SemiBold.otf);
+}
+
+.container-fluid{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
 a:link {
     font-family: Montserrat-Medium;
     font-size: 1.875rem;
@@ -22,6 +33,42 @@ a:focus {
   outline: none;
 }
 
+.font-size-xsm{
+    font-size: 12px;
+}
+
+.font-size-sm{
+    font-size: 24px;
+}
+
+.font-size-md{
+    font-size: 34px;
+}
+
+.font-size-lg{
+    font-size: 48px;
+}
+
+.font-family-md{
+    font-family: Montserrat-Medium;
+}
+
+.font-family-sbd{
+    font-family: Montserrat-SemiBold;
+} 
+
+.font-family-bd{
+    font-family: Montserrat-Bold;
+}
+
+.font-color-wt{
+    color: white;
+} 
+
+.font-color-gr{
+    color: #023a19;
+}
+
 tm-navbar {
     position: fixed;
     width: 100%;
@@ -29,13 +76,13 @@ tm-navbar {
 
 #navbar-right{
     position: absolute;
-    top: 20px;
+    top: 15px;
     right: 50px;
 }
 
 #navbar-left{
     position: absolute;
-    top: 20px;
+    top: 15px;
     left: 100px;
 }
 
@@ -50,45 +97,45 @@ tm-navbar {
     font-weight: bold;
 }
    
-  .tm-navbar.scroll .navbar-brand {
+.tm-navbar.scroll .navbar-brand {
     color: #8f8f8f;
-  }
+}
   
-  .nav-item {
-    padding: 10px;
+.nav-item {
+    padding: 20px;
     list-style: none;
-  }
+}
   
-  .tm-nav-link {
+.tm-nav-link {
     color: white;
-  }
-  
-  .tm-navbar.scroll .tm-nav-link {
+}
+
+.tm-navbar.scroll .tm-nav-link {
     color: #8f8f8f;
-  }
-  
-  .tm-navbar.scroll .tm-nav-link:hover,
-  .tm-navbar.scroll .tm-nav-link.current,
-  .tm-nav-link:hover {
+}
+
+.tm-navbar.scroll .tm-nav-link:hover,
+.tm-navbar.scroll .tm-nav-link.current,
+.tm-nav-link:hover {
     color: white;
     font-weight: bold;
-  }
-  
-  .navbar-toggler {
+}
+
+.navbar-toggler {
     border: 1px solid white;
     padding-left: 10px;
     padding-right: 10px;
-  }
-  
-  .navbar-toggler-icon {
+}
+
+.navbar-toggler-icon {
     color: white;
     padding-top: 6px;
-  }
+}
   
-  .tm-navbar.scroll .navbar-toggler {
+.tm-navbar.scroll .navbar-toggler {
     border: 1px solid #8f8f8f;
-  }
-  
+}
+
 .tm-navbar.scroll .navbar-toggler-icon {
     color: #8f8f8f;
 }
@@ -96,56 +143,119 @@ tm-navbar {
 
 #hero {
     background-image: url('assets/images/links/homepage-banner.jpg');
-    min-height: 1080px;
+    height: 100vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
 
-.bg-img {
-    /* The image used */
-    background-image: url("img_nature.jpg");
-  
-   
-  }
-/* body {
-    padding: 0px;
-    margin: 0px;
-    font-size: 1.875em;
+
+/* @media (min-height: 830px) {
+    #hero {
+        background-position: center;
+        width: 100vh;
+        min-width: 100%;
+    }
 }
 
-.navbar-left {
-    position: absolute;
-    top: 15px;
-    left: 50px;
+@media (min-height: 680px) and (max-height: 829px) {
+    #hero {
+        width: 100vh;
+        min-width: 100%;
+    }
 }
 
-.navbar-right {
-    position: absolute;
-    top: 15px;
-    right: 50px;
+@media (min-height: 500px) and (max-height: 679px) {
+    #hero {
+        width: 100vh;
+        min-width: 100%;
+    }
 }
 
-.navbar1 ul {
-    list-style: none;   
-    overflow: hidden;
-}
-
-.navbar1 li {
-    float: left;
-    padding-right: 30px;
-    padding-left: 30px;
-}
-
-.navbar1 a {
-    text-decoration: none;
-    font-family: Montserrat-Medium;
-    color: #ffffff;
-}
-
-.navbar1 a:hover {
-    text-decoration: none;
-    font-weight: bold;
-    color: #ffffff;
+@media (max-height: 499px) {
+    #hero {
+        width: 100vh;
+        min-width: 100%;
+    }
 } */
+
+.middle-element{
+    text-align: center;
+    margin-top: 70px;
+}
+
+#unique-caption{
+    font-family: Montserrat-Bold;
+    color: #023a19;
+    font-size: 48px;
+}
+
+ul#horizontal-list {
+    min-width: 696px;
+    list-style: none;
+}
+
+ul#horizontal-list li {
+    display: inline;
+}
+
+ul#horizontal-list img{
+    height: 316px;
+    width: 316px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-bottom: 20px;
+}
+
+ul#horizontal-list figure{
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+ul#horizontal-list figcaption{
+    color: #303030;
+    font-family: Montserrat-SemiBold;
+    font-size: 24px;
+    line-height: 120%;
+}
+
+#why-invest{
+    margin-top: 80px;
+}
+
+#why-invest img{
+    clip: rect(0px,60px,200px,0px);
+}
+
+.why-invest-caption {
+    position: absolute;
+    top: 18%;
+    right: 10%;
+    color: white;
+    font-size: 24px;
+    font-family: Montserrat-Medium;
+    line-height: 110%;
+}
+
+.why-invest-caption p{
+    font-size: 48px;
+    font-family: Montserrat-Bold;
+}
+
+footer{
+    margin-top: 60px;
+    text-align: center;
+    line-height: 200%;
+}
+
+footer button {
+    margin-top: 20px;
+    margin-bottom: 80px;
+    width: 330px;
+    height: 87px;
+    font-size: 37px;
+    background-color: #023a19;
+    border-radius: 16px;
+}
