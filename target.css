@@ -1,0 +1,151 @@
+@font-face {
+    font-family: Montserrat-Medium;
+    src: url(assets/fonts/Montserrat-Medium.otf);
+}
+
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(assets/fonts/Montserrat-Bold.otf);
+}
+
+a:link {
+    font-family: Montserrat-Medium;
+    font-size: 1.875rem;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+a:focus {
+  outline: none;
+}
+
+tm-navbar {
+    position: fixed;
+    width: 100%;
+}
+
+#navbar-right{
+    position: absolute;
+    top: 20px;
+    right: 50px;
+}
+
+#navbar-left{
+    position: absolute;
+    top: 20px;
+    left: 100px;
+}
+
+.tm-navbar.scroll {
+    background-color: white;
+    border-bottom: 1px solid #e9ecef;
+}
+  
+.navbar-brand {
+    color: white;
+    font-size: 1.875rem;
+    font-weight: bold;
+}
+   
+  .tm-navbar.scroll .navbar-brand {
+    color: #8f8f8f;
+  }
+  
+  .nav-item {
+    padding: 10px;
+    list-style: none;
+  }
+  
+  .tm-nav-link {
+    color: white;
+  }
+  
+  .tm-navbar.scroll .tm-nav-link {
+    color: #8f8f8f;
+  }
+  
+  .tm-navbar.scroll .tm-nav-link:hover,
+  .tm-navbar.scroll .tm-nav-link.current,
+  .tm-nav-link:hover {
+    color: white;
+    font-weight: bold;
+  }
+  
+  .navbar-toggler {
+    border: 1px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .navbar-toggler-icon {
+    color: white;
+    padding-top: 6px;
+  }
+  
+  .tm-navbar.scroll .navbar-toggler {
+    border: 1px solid #8f8f8f;
+  }
+  
+.tm-navbar.scroll .navbar-toggler-icon {
+    color: #8f8f8f;
+}
+  
+
+#hero {
+    background-image: url('assets/images/links/homepage-banner.jpg');
+    min-height: 1080px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.bg-img {
+    /* The image used */
+    background-image: url("img_nature.jpg");
+  
+   
+  }
+/* body {
+    padding: 0px;
+    margin: 0px;
+    font-size: 1.875em;
+}
+
+.navbar-left {
+    position: absolute;
+    top: 15px;
+    left: 50px;
+}
+
+.navbar-right {
+    position: absolute;
+    top: 15px;
+    right: 50px;
+}
+
+.navbar1 ul {
+    list-style: none;   
+    overflow: hidden;
+}
+
+.navbar1 li {
+    float: left;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.navbar1 a {
+    text-decoration: none;
+    font-family: Montserrat-Medium;
+    color: #ffffff;
+}
+
+.navbar1 a:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffffff;
+} */
