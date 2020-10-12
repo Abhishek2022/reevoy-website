@@ -2,7 +2,7 @@
     background-size:cover;  
 
     /* Workaround for some mobile browsers */
-    min-height:100vh;    
+    min-height:100vh;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -73,13 +73,13 @@ ul#horizontal-list figcaption{
     line-height: 110%;
 }
 
-footer{
+#get-started{
     margin-top: 60px;
     text-align: center;
     line-height: 200%;
 }
 
-footer button {
+#get-started button{
     margin-top: 20px;
     margin-bottom: 80px;
     width: 330px;
@@ -87,4 +87,55 @@ footer button {
     font-size: 37px;
     background-color: #023a19;
     border-radius: 16px;
+}
+
+#laptop-content{
+    margin-top: 80px;
+    line-height: 300%;
+}
+
+#laptop-img{
+    height: 540px;
+    width: 540px;
+    margin-left: 20px;
+}
+
+.laptop-text{
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+#get-started-sm{
+    margin-left: 60px;
+    line-height: 200%;
+}
+
+#get-started-sm button{
+    margin-top: 20px;
+    margin-bottom: 80px;
+    width: 280px;
+    height: 73px;
+    font-size: 30px;
+    background-color: #023a19;
+    border-radius: 16px;
+}
+
+.laptop-text ol {
+    list-style: none;
+    counter-reset: myVar;
+}
+.laptop-text ol li {
+    counter-increment: myVar;
+}
+.laptop-text ol li::before {
+    content: counter(myVar) ". ";
+    color: white;
+    font-weight: bold;
+    background-color: #023a19;
+    border-radius: 100%;
+    padding: 3px;
+    padding-left: 6px;
+    margin-right: 15px;
+    margin-left: -40px;
 }
