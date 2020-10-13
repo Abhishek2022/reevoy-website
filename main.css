@@ -75,10 +75,10 @@ a:focus {
 }
 
 nav .navbar-nav li a, .navbar-brand{
-    font-size: 30px;
+    font-size: 28px;
     font-family: Montserrat-Medium;
     color: white !important;
-    margin:20px;
+    margin:10px;
 }
 
 .navbar-brand{
