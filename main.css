@@ -35,19 +35,23 @@ a:focus {
 }
 
 .font-size-xsm{
-    font-size: 12px;
+    font-size: 0.6932vw;
+    /* 12px */
 }
 
 .font-size-sm{
-    font-size: 24px;
+    font-size: 1.3864vw;
+    /* 24px */
 }
 
 .font-size-md{
-    font-size: 34px;
+    font-size: 1.9641vw;
+    /* 34px */
 }
 
 .font-size-lg{
-    font-size: 48px;
+    font-size: 2.7729vw;
+    /* 48px */
 }
 
 .font-family-md{
@@ -75,7 +79,7 @@ a:focus {
 }
 
 nav .navbar-nav li a, .navbar-brand{
-    font-size: 28px;
+    font-size: 1.5020vw;
     font-family: Montserrat-Medium;
     color: white !important;
     margin:10px;

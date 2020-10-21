@@ -69,7 +69,7 @@ ul#horizontal-list figcaption{
 .why-invest-caption {
     position: absolute;
     top: 18%;
-    right: 10%;
+    right: 8%;
     line-height: 110%;
 }
 
@@ -90,7 +90,7 @@ ul#horizontal-list figcaption{
 }
 
 #laptop-content{
-    margin-top: 80px;
+    margin-top: 30px;
     line-height: 300%;
 }
 
@@ -141,7 +141,7 @@ ul#horizontal-list figcaption{
 
 #products-text-content {
     position: absolute;
-    top: 22%;
-    left: 4%;
-    line-height: 210%;
+    top: 15%;
+    left: 4%;   
+    /* line-height: 210%; */
 }
