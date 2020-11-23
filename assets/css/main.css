@@ -1,16 +1,16 @@
 @font-face {
     font-family: Montserrat-Medium;
-    src: url(assets/fonts/Montserrat-Medium.otf);
+    src: url(../fonts/Montserrat-Medium.otf);
 }
 
 @font-face {
     font-family: Montserrat-Bold;
-    src: url(assets/fonts/Montserrat-Bold.otf);
+    src: url(../fonts/Montserrat-Bold.otf);
 }
 
 @font-face {
     font-family: Montserrat-SemiBold;
-    src: url(assets/fonts/Montserrat-SemiBold.otf);
+    src: url(../fonts/Montserrat-SemiBold.otf);
 }
 
 .container-fluid{
@@ -35,23 +35,19 @@ a:focus {
 }
 
 .font-size-xsm{
-    font-size: 0.6932vw;
-    /* 12px */
+    font-size: 12px;
 }
 
 .font-size-sm{
-    font-size: 1.3864vw;
-    /* 24px */
+    font-size: 24px;
 }
 
 .font-size-md{
-    font-size: 1.9641vw;
-    /* 34px */
+    font-size: 34px;
 }
 
 .font-size-lg{
-    font-size: 2.7729vw;
-    /* 48px */
+    font-size: 48px;
 }
 
 .font-family-md{
@@ -79,15 +75,19 @@ a:focus {
 }
 
 nav .navbar-nav li a, .navbar-brand{
-    font-size: 1.5020vw;
     font-family: Montserrat-Medium;
     color: white !important;
-    margin:10px;
 }
 
 .navbar-brand{
-    margin-left: 100px;
+    margin-top: 20px;
+    margin-left: 5%;
 }
+
+.nav-item {
+    margin-top: 20px;
+    padding-left: 15px;
+} 
 
 .navbar-toggler{
     background-color: white;
@@ -96,4 +96,15 @@ nav .navbar-nav li a, .navbar-brand{
 
 nav .navbar-nav li a:hover, .navbar-brand:hover{
     font-weight: bold;
+}
+
+#header {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+
+.main {
+    position: relative;
+    min-height: 100vh;
 }

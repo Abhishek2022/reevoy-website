@@ -1,10 +1,31 @@
-#hero {
-    background-size:cover;  
+.home-banner {
+    background: url("../images/links/homepage-banner.jpg");
+    background-size: cover;
+    background-position: center;
+}
 
-    /* Workaround for some mobile browsers */
-    min-height:100vh;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.investors-banner {
+    background: url("../images/links/investor.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.products-banner {
+    background: url("../images/links/products-and-services.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.about-banner {
+    background: url("../images/links/vision.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.mission-banner {
+    background: url("../images/links/mission.png");
+    background-size: cover;
+    background-position: center;
 }
 
 .middle-element{
@@ -12,22 +33,11 @@
     margin-top: 70px;
 }
 
-#unique-caption{
-    font-family: Montserrat-Bold;
-    color: #023a19;
-    font-size: 48px;
+.middle-element figcaption {
+    color: #303030;
 }
 
-ul#horizontal-list {
-    min-width: 696px;
-    list-style: none;
-}
-
-ul#horizontal-list li {
-    display: inline;
-}
-
-ul #large-img img{
+#large-img img{
     height: 316px;
     width: 316px;
     background-color: #023a19;
@@ -36,7 +46,7 @@ ul #large-img img{
     margin-bottom: 20px;
 }
 
-ul #small-img img{
+#small-img img{
     height: 240px;
     width: 240px;
     background-color: #023a19;
@@ -45,27 +55,15 @@ ul #small-img img{
     margin-bottom: 20px;
 }
 
-ul#horizontal-list figure{
-    margin-right: 40px;
-    margin-left: 40px;
-    margin-top: 20px;
-}
-
-ul#horizontal-list figcaption{
-    color: #303030;
-    font-family: Montserrat-SemiBold;
-    font-size: 24px;
-    line-height: 120%;
-}
-
 #why-invest{
     margin-top: 80px;
 }
 
 .why-invest-caption {
+    font-size: 1.75vw;
     position: absolute;
     top: 18%;
-    right: 12%;
+    right: 100px;
     line-height: 110%;
 }
 
@@ -87,25 +85,19 @@ ul#horizontal-list figcaption{
 
 #laptop-content{
     background-color: #f9f9f9;
-    margin-top: 30px;
-    padding-left: 15%;
-    padding-right: 15%;   
+    padding-left: calc(0px + 10vw);
+    padding-right: 8%;
+    padding-bottom: 30px;
 }
 
-/* #laptop-img{
-    height: 540px;
-    width: 540px;
-} */
-
 .laptop-text{
-    position: absolute;
+    position: relative;
     top: 20%;
     left: 10%;
 }
 
 #get-started-sm{
     margin-left: 60px;
-    /* line-height: 200%; */
 }
 
 #get-started-sm button{
@@ -149,35 +141,25 @@ ul#horizontal-list figcaption{
     position: absolute;
     top: 15%;
     left: 4%;   
-    /* line-height: 210%; */
 }
 
 #cf7 {
     position:relative;
-    height:400px;
-    width:550px;
-    margin-bottom: 20%;
-    margin-top: 20%;
-  }
+    height:360px;
+    width:500px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
 
 #cf7 img {
-    height: 400px;
-    width: 550px;
+    height: 360px;
+    width: 500px;
     position: absolute; 
     left:0; 
-    /* -webkit-transition: height 5s ease-in-out;
-    -moz-transition: height 5s ease-in-out;
-    -ms-transition: height 5s ease-in-out;
-    -o-transition: height 5s ease-in-out; */
-    transition: all 1s;
-    transit;
+    transition: all 1s ease-out;
     opacity:0;
-    /* -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0); */
 }
 
 #cf7 img.opaque {
-opacity:1;
-    /* -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    filter: alpha(opacity=1); */
+    opacity:1;
 }

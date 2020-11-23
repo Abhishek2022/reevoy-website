@@ -1,0 +1,137 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .font-size-xsm{
+        font-size: 8px;
+    }
+    
+    .font-size-sm{
+        font-size: 14px;
+    }
+    
+    .font-size-md{
+        font-size: 24px;
+    }
+    
+    .font-size-lg{
+        font-size: 32px;
+    }
+    
+    .main {
+        min-height: 50vh;
+    }
+
+    #large-img img{
+        height: 200px;
+        width: 200px;
+    }
+
+    #cf7{
+        display: none;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width: 767px) {
+    .font-size-xsm{
+        font-size: 8px;
+    }
+    
+    .font-size-sm{
+        font-size: 16px;
+    }
+    
+    .font-size-md{
+        font-size: 32px;
+    }
+    
+    .font-size-lg{
+        font-size: 40px;
+    }
+
+    .main {
+        min-height: 60vh;
+    }
+
+    #cf7{
+        display: none;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .font-size-xsm{
+        font-size: 12px;
+    }
+    
+    .font-size-sm{
+        font-size: 16px;
+    }
+    
+    .font-size-md{
+        font-size: 26px;
+    }
+    
+    .font-size-lg{
+        font-size: 35px;
+    }
+
+    .main {
+        min-height: 70vh;
+    }
+
+    #cf7, #cf7 img{
+        height: 250px;
+        width: 350px;
+    }
+
+    #laptop-content {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .laptop-text {
+        left: 5%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .font-size-xsm{
+        font-size: 16px;
+    }
+    
+    .font-size-sm{
+        font-size: 20px;
+    }
+    
+    .font-size-md{
+        font-size: 32px;
+    }
+    
+    .font-size-lg{
+        font-size: 40px;
+    }
+
+    .main {
+        min-height: 80vh;
+    }
+    
+    #large-img img{
+        height: 280px;
+        width: 280px;
+    }
+
+    #cf7, #cf7 img{
+        height: 300px;
+        width: 400px;
+    }
+
+    #laptop-content {
+        padding-left: 0%;
+        padding-right: 0%;
+    }
+
+    .laptop-text {
+        left: 5%;
+    }
+}
