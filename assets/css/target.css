@@ -245,7 +245,7 @@
 .card-sm-text {
     position: relative;
     top: -15%;
-    padding-left: 8%;
+    padding-left: 7%;
 }
 
 #advantage-header{
@@ -278,3 +278,16 @@
     padding-right: 1%;
     padding-bottom: 4%;
 }  
+
+#investors-middle-element {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#investors-middle-element img{
+    width: 320px;
+    height: 320px;
+}
+
+#card-bottom-margin {
+    margin-bottom: 8%;
+}
