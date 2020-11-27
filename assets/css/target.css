@@ -209,6 +209,7 @@
 .card-deck {
     margin-bottom: 2%;
 }
+
 .card-lg{
     border: 1px solid #ECEFF5;;
     height: 220px;
@@ -228,7 +229,7 @@
     padding: 0.8%;
     line-height: 165%;
 }
-.card img {
+.card-sm img {
     width: 78.4px;
     height: 90px;
     position: relative;
@@ -290,4 +291,33 @@
 
 #card-bottom-margin {
     margin-bottom: 8%;
+}
+
+#founders img {
+    height: 380px;
+    width: 380px;
+}
+
+.about-us-card .card{
+    height: 320px;
+    border: none;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+}
+
+.about-us-card .card-text{
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+#handshake-image {
+    background: url("../images/about-us/hr-handshaking.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#mission-image {
+    background: url("../images/about-us/mission.png");
+    background-size: cover;
+    background-position: center;
 }
