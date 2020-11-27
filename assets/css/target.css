@@ -182,3 +182,99 @@
     line-height: 170%;
     font-weight: 575;
 }
+
+.middle-element-products{
+    padding-top: 4%;
+    padding-left: 8.5%;
+    padding-right: 8.5%;
+    padding-bottom: 4%;
+}  
+
+.bg-color {
+    background: rgba(34, 76, 154, 0.02);
+}
+
+#non-export-header{
+    text-align: center;
+    margin-bottom: 1%;
+}
+
+#non-export-text {
+    font-size: 27px;
+    text-align: left;
+    letter-spacing: 1.5x;
+    margin-bottom: 4%;
+}
+
+.card-deck {
+    margin-bottom: 2%;
+}
+.card-lg{
+    border: 1px solid #ECEFF5;;
+    height: 220px;
+    border-radius: 25px;
+    font-size: 20px;
+    opacity: 0.8;
+    padding: 0.8%;
+    line-height: 165%;
+}
+
+.card-sm {
+    border: 1px solid #ECEFF5;;
+    height: 300px;
+    border-radius: 35px;
+    font-size: 20px;
+    opacity: 0.9;
+    padding: 0.8%;
+    line-height: 165%;
+}
+.card img {
+    width: 78.4px;
+    height: 90px;
+    position: relative;
+    border-radius: 50%;
+    padding: 20px;
+    background: #FFFFFF;
+    box-shadow: 0px 11px 15px #00000012;
+    z-index: 5;
+    border: 1px solid white;
+    top: -35%;
+    left: 3%;
+}
+
+.card-sm-text {
+    position: relative;
+    top: -15%;
+    padding-left: 8%;
+}
+
+#advantage-header{
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.icon-bar{
+    padding-left: 10%;
+}
+
+.icon-bar img {
+    display:block;
+    margin: auto;
+    width: 120px;
+    height: 120px;   
+    margin-bottom: 10%;
+}
+
+#resize-img img{
+    width: 80px;
+    height: 80px;  
+    margin-bottom: 20%;
+    margin-top: 5%;
+}
+
+.middle-element-icons{
+    padding-top: 4%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 4%;
+}  

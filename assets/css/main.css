@@ -33,6 +33,11 @@
     src: url(../fonts/Acumin-BdPro.otf);
 }
 
+@font-face {
+    font-family: Avenir-Medium;
+    src: url(../fonts/Avenir-Medium.ttf);
+}
+
 .container-fluid{
     margin: 0px;
     padding: 0px;
@@ -92,6 +97,10 @@ a:focus {
 
 .font-family-avenir-rm{
     font-family: Avenir-Roman;
+}
+
+.font-family-avenir-md{
+    font-family: Avenir-Medium;
 }
 
 .font-family-avenir-bk{
