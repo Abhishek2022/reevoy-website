@@ -241,6 +241,12 @@
     border: 1px solid white;
     top: -35%;
     left: 3%;
+    -webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .card-sm-text {
