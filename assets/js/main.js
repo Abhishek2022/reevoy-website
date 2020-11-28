@@ -5,7 +5,7 @@ $(document).ready(function() {
         var newImage = $(this).index();
         
         $("#cf7 img").eq(newImage).addClass("opaque");
-        $("#cf7 img").eq(newImage).slideUp();
+        // $("#cf7 img").eq(newImage).slideUp();
 
         $("#cf7_controls").removeClass("selected");
         $(this).addClass("selected");
