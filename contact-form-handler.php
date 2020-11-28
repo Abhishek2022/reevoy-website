@@ -6,12 +6,12 @@
         $Email = $_POST['email'];
         $Name = $_POST['name'];
 
-        $mailTo = "avishekprasad26@gmail.com"
+        $mailTo = "avishekprasad26@gmail.com";
         $subject = $Email;
         $txt = $Iec;
-        $headers = $Phone
+        $headers = $Phone;
 
         mail($mailTo, $subject, $txt, $headers);
-        
+
     }
 ?>
