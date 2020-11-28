@@ -1,5 +1,9 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+    .navbar-brand {
+        margin-top: 17px;
+    }
+
     .font-size-xsm{
         font-size: 8px;
     }
@@ -71,10 +75,22 @@
         font-size: 10px;
     }
 
+    .banner-text {
+        font-size: 32px;
+    }
+
+    #banner-text-small {
+        font-size: 15px;
+    }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width: 767px) {
+    .navbar-brand {
+        margin-top: 25px;
+    }
+    
     .font-size-xsm{
         font-size: 8px;
     }
@@ -136,10 +152,22 @@
         margin-top: 6%;
         font-size: 12px;
     }
+
+    .banner-text {
+        font-size: 45px;
+    }
+
+    #banner-text-small {
+        font-size: 20px;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .navbar-brand {
+        margin-top: 30px;
+    }
+
     .font-size-xsm{
         font-size: 12px;
     }
@@ -209,10 +237,25 @@
     .contact-us-copyright{
         font-size: 15px;
     }
+
+    .banner-text {
+        font-size: 55px;
+    }
+
+    #banner-text-small {
+        font-size: 24px;
+    }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .nav-item{
+        padding-left: 12px;
+    }
+    .navbar-nav {
+        margin-right: 50px;
+    }
+
     .font-size-xsm{
         font-size: 16px;
     }
@@ -278,6 +321,10 @@
 
     .contact-us-copyright{
         font-size: 18px;
+    }
+
+    .banner-text {
+        font-size: 70px;
     }
 }
 
