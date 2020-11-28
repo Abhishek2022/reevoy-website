@@ -84,7 +84,7 @@
 #laptop-content{
     background-color: rgba(34, 76, 154, 0.02);
     padding-left: calc(0px + 9vw);
-    padding-right: 12%;
+    padding-right: 16%;
     padding-bottom: 30px;
 }
 
@@ -224,7 +224,7 @@
     border: 1px solid #ECEFF5;;
     height: 300px;
     border-radius: 35px;
-    font-size: 20px;
+    font-size:  1.2vw;
     opacity: 0.9;
     padding: 0.8%;
     line-height: 165%;

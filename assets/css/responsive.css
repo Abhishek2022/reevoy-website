@@ -5,7 +5,7 @@
     }
     
     .font-size-sm{
-        font-size: 14px;
+        font-size: 20px;
     }
     
     .font-size-md{
@@ -28,6 +28,34 @@
     #cf7{
         display: none;
     }
+
+    .card-lg{
+        font-size: 20px;
+      }
+      
+    .card-sm {
+        font-size: 20px;
+    }
+
+    .contact-us-tagline{
+        left: -5px;
+        font-size: 28px;
+    }
+
+    .contact-us-button{
+        margin-top: 5%;
+        
+    }
+
+    .contact-us-logo{
+        margin-top: 2%;
+        left: 30%;
+    }
+
+    footer {
+        height: 430px;
+    }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -55,6 +83,14 @@
     #cf7{
         display: none;
     }
+
+    .card-lg{
+        font-size: 1.4vw;
+      }
+      
+    .card-sm {
+        font-size: 1.4vw;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -80,17 +116,24 @@
     }
 
     #cf7, #cf7 img{
-        height: 250px;
-        width: 350px;
+        height: 300px;
+        width: 400px;
     }
 
     #laptop-content {
-        padding-left: 0%;
-        padding-right: 0%;
+        padding-right: 10%;
     }
 
     .laptop-text {
         left: 5%;
+    }
+
+    .card-lg{
+        font-size: 18px;
+      }
+      
+    .card-sm {
+        font-size: 1.4vw;
     }
 }
 
@@ -123,15 +166,49 @@
 
     #cf7, #cf7 img{
         height: 300px;
-        width: 400px;
+        width: 500px;
     }
 
     #laptop-content {
-        padding-left: 0%;
-        padding-right: 0%;
+        padding-right: 10%;
     }
 
     .laptop-text {
         left: 5%;
+    }
+
+    .card-lg{
+      font-size: 16px;
+    }
+    
+    .card-sm {
+        font-size: 16px;
+    }
+
+    footer button{
+        width: 220px;
+        height: 50px;
+    }
+
+    .contact-us-tagline{
+        left: -50px;
+        font-size: 36px;
+    }
+
+    .contact-us-button{
+        margin-top: 10%;
+        right: -5%;
+    }
+
+    .contact-us-logo{
+        margin-top: 2%;
+        left: -5%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    #cf7, #cf7 img{
+        height: 400px;
+        width: 630px;
     }
 }
