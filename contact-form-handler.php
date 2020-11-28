@@ -6,7 +6,7 @@
         $Email = $_POST['email'];
         $Name = $_POST['name'];
 
-        $mailTo = "avishekprasad26@gmail.com";
+        $mailTo = "f20180331@pilani.bits-pilani.ac.in";
         $subject = $Email;
         $txt = $Iec;
         $headers = $Phone;
