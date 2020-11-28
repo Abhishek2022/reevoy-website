@@ -85,7 +85,7 @@
 
     #contactForm { 
         width: 90%;
-        height: 95%;
+        height: 90%;
     }
 
     #contactForm h1{
@@ -107,9 +107,7 @@
         font-size: 1.1em;
         height: 50px;
         margin-left: -70%
-    }
-    
-
+    }   
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -187,6 +185,31 @@
     #banner-text-small {
         font-size: 20px;
     }
+
+    #contactForm { 
+        width: 90%;
+    }
+
+    #contactForm h1{
+        font-size: 38px;
+    }
+    
+    #contactForm p{
+        font-size: 18px;
+    }
+    
+    input { 
+        margin-bottom: 15px;
+        height: 40px;
+    }
+    
+    .formBtn { 
+        margin-top: 4%;
+        width: 100px;
+        font-size: 1.1em;
+        height: 50px;
+        margin-left: -70%
+    }   
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -272,6 +295,31 @@
     #banner-text-small {
         font-size: 24px;
     }
+
+    #contactForm { 
+        width: 75%;
+    }
+
+    #contactForm h1{
+        font-size: 42px;
+    }
+    
+    #contactForm p{
+        font-size: 20px;
+    }
+    
+    input { 
+        margin-bottom: 15px;
+        height: 40px;
+    }
+    
+    .formBtn { 
+        margin-top: 4%;
+        width: 100px;
+        font-size: 1.4em;
+        height: 50px;
+        margin-left: -70%
+    }   
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -353,6 +401,31 @@
     .banner-text {
         font-size: 70px;
     }
+
+    #contactForm { 
+        width: 60%;
+    }
+
+    #contactForm h1{
+        font-size: 42px;
+    }
+    
+    #contactForm p{
+        font-size: 20px;
+    }
+    
+    input { 
+        margin-bottom: 15px;
+        height: 40px;
+    }
+    
+    .formBtn { 
+        margin-top: 4%;
+        width: 100px;
+        font-size: 1.4em;
+        height: 50px;
+        margin-left: -70%
+    }   
 }
 
 @media only screen and (min-width: 1200px) {
