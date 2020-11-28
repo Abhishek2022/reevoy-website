@@ -83,6 +83,33 @@
         font-size: 15px;
     }
 
+    #contactForm { 
+        width: 90%;
+        height: 80%;
+    }
+
+    #contactForm h1{
+        font-size: 32px;
+    }
+    
+    #contactForm p{
+        font-size: 14px;
+    }
+    
+    input { 
+        margin-bottom: 15px;
+        height: 40px;
+    }
+    
+    .formBtn { 
+        margin-top: 4%;
+        width: 100px;
+        font-size: 1.1em;
+        height: 50px;
+        margin-left: -70%
+    }
+    
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
