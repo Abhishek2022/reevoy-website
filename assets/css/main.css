@@ -194,19 +194,19 @@ nav .navbar-nav li a:hover, .navbar-brand:hover{
 }
 
 footer{
-    height: 370px;
+    height: 400px;
     background-color: rgba(41, 41, 41, 1);
     position: relative;
 }
 
 .contact-us-tagline{
-    margin-top: 6%;
-    left: -150px;
+    margin-top: 4%;
+    text-align: left;
     font-size: 46px;
 }
 
 .contact-us-button{
-    margin-top: 10%;
+    margin-top: 7%;
     right: -10%;
 }
 
@@ -222,18 +222,17 @@ footer button{
 .seperator {
     border: 1px solid #FFFFFF;
     opacity: 0.08;
-    margin-top: 4%;
-    margin-left: -17%;
-    margin-right: -17%;
+    margin-top: 2%;
 }
 
 .contact-us-logo{
     margin-top: 2%;
-    left: -12%;
+    left: -6%;
 }
 
 .contact-us-copyright{
     margin-top: 3.5%;
     text-align: center;
+    font-size: 20px;
     opacity: 0.65;
 }
