@@ -236,3 +236,66 @@ footer button{
     font-size: 20px;
     opacity: 0.65;
 }
+
+#contactForm { 
+    display: none; 
+    padding: 2em;
+    height: 90%;
+    width: 45%;
+    text-align: center;
+    background: #fff;
+    position: fixed;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%)
+
+}
+
+#contactForm h1{
+    font-size: 50px;
+    margin-top: 2%;
+    margin-left: 5%;
+}
+
+#contactForm p{
+    margin-top: 2%;
+    margin-left: 5%;
+    padding-right: 25%;
+    font-size: 18px;
+}
+
+#input-area {
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+input { 
+    margin-bottom: 20px;
+    font-family: inherit; 
+    text-transform: inherit; 
+    font-size: inherit;
+    background-color: rgb(248,248,248);
+    border: 1px solid rgb(243,243,243);
+
+    display: block; 
+    width: 70%; 
+    height: 60px;
+    align-items: inherit;
+    padding-left: 1em;
+}
+
+.formBtn { 
+    margin-top: 4%;
+    width: 120px;
+    background:rgb(43,120,83);
+    color: #fff;
+    font-weight: 100;
+    font-size: 1.4em;
+    border: none;
+    height: 60px;
+    text-align: center;
+    border-radius: 10px;
+    margin-left: -82%;
+    padding-left: 0px;
+}
