@@ -190,6 +190,8 @@ nav .navbar-nav li a:hover, .navbar-brand:hover{
     width: 100%;
     text-align:center;
     line-height: 120%;
+    padding-left: 7%; 
+    padding-right: 7%;
 }
 
 footer{
@@ -323,7 +325,7 @@ input {
     .overlay-content a { 
         padding-bottom: 15px;
         text-decoration: none; 
-        font-size: 22px !important; 
+        font-size: 21px !important; 
         color: #26292b; 
         display: block; 
         transition: 0.3s; 
@@ -333,5 +335,4 @@ input {
         padding-right: 0px !important;
         margin-right: 0px !important;
     }
-
 } 
