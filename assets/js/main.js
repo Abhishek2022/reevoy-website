@@ -11,5 +11,3 @@ $(document).ready(function() {
         $(this).addClass("selected");
     });
 });
-
-$("a[href*='" + location.pathname + "']").addClass("current");

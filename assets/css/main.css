@@ -143,8 +143,7 @@ nav .navbar-nav li a{
 }
 
 nav .navbar-nav li a.current{
-    color: #ffffff;
-    background:#f1d74c;
+    text-decoration: underline;
 }
 
 .navbar-brand{

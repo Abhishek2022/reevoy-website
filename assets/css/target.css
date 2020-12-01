@@ -31,14 +31,14 @@
 .middle-element{
     text-align: center;
     margin-top: 70px;
-    padding-left: 7%;
-    padding-right: 7%;
+    padding-left: 6%;
+    padding-right: 6%;
     margin-bottom: 65px;
 }   
 
 #large-img img{
-    height: 400px;
-    width: 400px;
+    height: 380px;
+    width: 380px;
     object-fit: cover;
     border-radius: 100%;
     margin-bottom: 20px;;
