@@ -358,4 +358,17 @@ input {
         padding-left: 5%;
         padding-right: 5%;
     }
+
+    #icon-card {
+        margin-top: 50px;
+    }
+    
+    #icon-card .card {
+        margin-bottom: 100px;
+    }
+    
+    #icon-bar {
+        padding-left: 25%;
+        padding-right: 25%;
+    }
 } 
