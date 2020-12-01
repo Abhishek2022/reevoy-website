@@ -346,4 +346,16 @@ input {
         padding-right: 0px !important;
         margin-right: 0px !important;
     }
+
+    .banner-text{
+        padding-left: 2%; 
+        padding-right: 2%;
+    }
+    
+    
+    #banner-text-small {
+        margin-top: -6%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
 } 
