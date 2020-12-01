@@ -359,12 +359,12 @@ input {
         padding-right: 5%;
     }
 
-    #icon-card {
+    #icon-card, #card-bottom-margin {
         margin-top: 50px;
     }
     
-    #icon-card .card {
-        margin-bottom: 100px;
+    #icon-card .card, #card-bottom-margin .card {
+        margin-bottom: 75px;
     }
     
     #icon-bar {
