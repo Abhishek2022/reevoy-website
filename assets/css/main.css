@@ -371,4 +371,8 @@ input {
         padding-left: 25%;
         padding-right: 25%;
     }
+
+    #resize-text {
+        font-size: 20px;
+    }
 } 
