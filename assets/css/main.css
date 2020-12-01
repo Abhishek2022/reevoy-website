@@ -209,6 +209,7 @@ footer{
     height: 400px;
     background-color: rgba(41, 41, 41, 1);
     position: relative;
+    margin-top: -50px;
 }
 
 .contact-us-tagline{
