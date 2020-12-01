@@ -280,9 +280,10 @@
 }  
 
 #investors-middle-element {
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
+
 #investors-middle-element img{
     width: 320px;
     height: 320px;
