@@ -305,8 +305,6 @@ input {
     }
     
     .overlay { 
-        height: 50%; 
-        width: 0; 
         position: fixed;  
         overflow-x: hidden; 
         transition: 0.5s; 
@@ -314,7 +312,7 @@ input {
       
     .overlay-content { 
         position: relative; 
-        top: 25%; 
+        top: 15%; 
         width: 100%; 
         text-align: left; 
         background-color: black !important; 
@@ -332,7 +330,8 @@ input {
     } 
 
     .nav-item {
-        padding-right: 0px;
+        padding-right: 0px !important;
+        margin-right: 0px !important;
     }
 
 } 
