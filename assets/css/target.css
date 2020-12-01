@@ -161,27 +161,19 @@
 }
 
 #homepage-banner-text{
-    top: 55%;
+    top: 50%;
 }
 
 #products-banner-text{
-    top: 45%;
+    top: 40%;
 }
 
 #investors-banner-text{
-    top: 45%;
+    top: 40%;
 }
 
 #about-us-banner-text{
-    top: 45%;
-}
-
-#banner-text-small {
-    font-family: Avenir-Book;
-    font-size: 30px;
-    line-height: 170%;
-    font-weight: 575;
-    margin-top: -2%;
+    top: 40%;
 }
 
 .middle-element-products{
