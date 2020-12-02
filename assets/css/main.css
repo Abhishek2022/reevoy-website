@@ -144,6 +144,7 @@ nav .navbar-nav li a{
 
 nav .navbar-nav li a.current{
     text-decoration: underline;
+    background-color: yellow !important;
 }
 
 .navbar-brand{
