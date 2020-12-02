@@ -14,7 +14,16 @@ $(document).ready(function() {
 
 $(function () {
     $(document).scroll(function () {
-      var $nav = $(".fixed-top");
-      $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+      var top =	 window.pageYOffset || document.documentElement.scrollTop;
+      if (top > 100) {
+        var $nav = $(".fixed-top");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+        document.getElementById("navbar-logo").src = "assets/images/logo2.svg";
+      } 
+      else {
+        var $nav = $(".fixed-top");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+        document.getElementById("navbar-logo").src = "assets/images/logo1.png";
+      }
     });
   });
