@@ -149,6 +149,7 @@ nav .navbar-nav li a{
 nav .navbar-nav li a.current{
     background-color: lightblue !important;
     font-weight: bold;
+    color: black !important;
 }
 
 .navbar-brand{
