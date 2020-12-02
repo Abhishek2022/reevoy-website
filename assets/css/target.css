@@ -37,8 +37,8 @@
 }   
 
 #large-img img{
-    height: 380px;
-    width: 380px;
+    height: 350px;
+    width: 350px;
     object-fit: cover;
     border-radius: 100%;
     margin-bottom: 20px;;
@@ -285,8 +285,8 @@
 }
 
 #investors-middle-element img{
-    width: 320px;
-    height: 320px;
+    width: 300px;
+    height: 300px;
 }
 
 #card-bottom-margin {
