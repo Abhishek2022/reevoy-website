@@ -43,6 +43,10 @@
     src: url(../fonts/AEH.ttf);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container-fluid{
     margin: 0px;
     padding: 0px;
@@ -143,7 +147,6 @@ nav .navbar-nav li a{
 }
 
 nav .navbar-nav li a.current{
-    text-decoration: underline;
     background-color: lightblue !important;
 }
 
@@ -353,7 +356,6 @@ input {
         padding-left: 2%; 
         padding-right: 2%;
     }
-    
     
     #banner-text-small {
         margin-top: -6%;

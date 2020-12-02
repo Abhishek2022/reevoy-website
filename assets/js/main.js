@@ -27,3 +27,35 @@ $(function () {
       }
     });
   });
+
+  $(document).scroll(function () {
+    $('section').each(function () {
+        if($(this).position().top <= $(document).scrollTop() && ($(this).position().top + $(this).outerHeight()) > $(document).scrollTop()) {
+          var currentSection = $(this).attr('id');
+          if(currentSection == 'homepage-section') {
+            document.getElementById("homepage-link").classList.add("current");
+            document.getElementById("products-link").classList.remove("current");
+            document.getElementById("investors-link").classList.remove("current");
+            document.getElementById("about-us-link").classList.remove("current");
+          }  
+          else if(currentSection == 'products-section') {
+            document.getElementById("homepage-link").classList.remove("current");
+            document.getElementById("products-link").classList.add("current");
+            document.getElementById("investors-link").classList.remove("current");
+            document.getElementById("about-us-link").classList.remove("current");
+          }
+          else if(currentSection == 'investors-section') {
+            document.getElementById("homepage-link").classList.remove("current");
+            document.getElementById("products-link").classList.remove("current");
+            document.getElementById("investors-link").classList.add("current");
+            document.getElementById("about-us-link").classList.remove("current");
+          }
+          else if(currentSection == 'about-us-section') {
+            document.getElementById("homepage-link").classList.remove("current");
+            document.getElementById("products-link").classList.remove("current");
+            document.getElementById("investors-link").classList.remove("current");
+            document.getElementById("about-us-link").classList.add("current");
+          }
+        }
+    });
+})
