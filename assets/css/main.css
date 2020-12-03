@@ -147,7 +147,7 @@ nav .navbar-nav li a{
 }
 
 nav .navbar-nav li a.current{
-    background-color: lightblue !important;
+    background-color: rgb(69,162,148,0.7) !important;
     font-weight: bold;
     color: black !important;
 }
@@ -199,7 +199,6 @@ nav .navbar-nav li a:hover, .navbar-brand:hover{
     padding-left: 4%; 
     padding-right: 4%;
 }
-
 
 #banner-text-small {
     font-family: Avenir-Book;
@@ -296,7 +295,6 @@ input {
     font-size: inherit;
     background-color: rgb(248,248,248);
     border: 1px solid rgb(243,243,243);
-
     display: block; 
     width: 70%; 
     height: 60px;
@@ -344,10 +342,13 @@ input {
         padding-bottom: 15px;
         text-decoration: none; 
         font-size: 20px !important; 
-        color: black !important; 
         display: block; 
         transition: 0.3s; 
     } 
+
+    .overlay-content ul li a {
+        color: black !important; 
+    }
 
     .nav-item {
         padding-right: 0px !important;
