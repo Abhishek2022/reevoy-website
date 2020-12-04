@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="107" height="107" viewBox="0 0 107 107">
+  <defs>
+    <filter id="Ellipse_24" x="0" y="0" width="107" height="107" filterUnits="userSpaceOnUse">
+      <feOffset dy="11" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="7.5" result="blur"/>
+      <feFlood flood-opacity="0.071"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_7613" data-name="Group 7613" transform="translate(-156.5 -1603.5)">
+    <g transform="matrix(1, 0, 0, 1, 156.5, 1603.5)" filter="url(#Ellipse_24)">
+      <circle id="Ellipse_24-2" data-name="Ellipse 24" cx="31" cy="31" r="31" transform="translate(22.5 11.5)" fill="#fff"/>
+    </g>
+    <g id="noun_Wallet_2893797" transform="translate(190.999 1629)">
+      <g id="Group_7429" data-name="Group 7429" transform="translate(5 1)">
+        <g id="Group_7428" data-name="Group 7428">
+          <g id="Group_7424" data-name="Group 7424" transform="translate(8.27 7.201)">
+            <path id="Path_7795" data-name="Path 7795" d="M22.577,17.859a1.379,1.379,0,1,1,1.38-1.379A1.381,1.381,0,0,1,22.577,17.859Zm0-1.736a.357.357,0,1,0,.358.357A.359.359,0,0,0,22.577,16.123Z" transform="translate(-21.197 -15.102)" fill="#1c9989" stroke="#1c9989" stroke-miterlimit="10" stroke-width="0.4"/>
+          </g>
+          <g id="Group_7425" data-name="Group 7425" transform="translate(17.82 6.597)">
+            <path id="Path_7796" data-name="Path 7796" d="M41.28,16.676A1.379,1.379,0,1,1,42.66,15.3,1.381,1.381,0,0,1,41.28,16.676Zm0-1.736a.357.357,0,1,0,.358.357A.359.359,0,0,0,41.28,14.94Z" transform="translate(-39.9 -13.919)" fill="#1c9989" stroke="#1c9989" stroke-miterlimit="10" stroke-width="0.4"/>
+          </g>
+          <g id="Group_7427" data-name="Group 7427">
+            <path id="Path_7797" data-name="Path 7797" d="M32.278,6.21,21.171,1.047a.51.51,0,0,0-.678.247L19.353,3.73H8.536a.511.511,0,0,0-.511.511v9.348H6.946A2.007,2.007,0,0,0,5,15.486L5,30.8a2,2,0,0,0,1.945,1.854H29.39a1.892,1.892,0,0,0,1.882-1.9V15.487a1.892,1.892,0,0,0-1.881-1.9l3.135-6.7A.518.518,0,0,0,32.278,6.21ZM21.2,2.188l3.238,1.5a4.279,4.279,0,0,1-4.668,1.553ZM18.875,4.752,17.836,6.973a3.983,3.983,0,0,1-1.172-2.221h2.211Zm-9.828,0h3.98a4.3,4.3,0,0,1-3.98,3.513Zm0,4.535A5.321,5.321,0,0,0,14.06,4.752h1.571a5.121,5.121,0,0,0,1.749,3.2l-1.869,3.995A3,3,0,0,0,11.86,13.59H9.046v-4.3Zm6.028,3.589-.334.714H13.023A2,2,0,0,1,15.075,12.876ZM30.25,25.821h-4.8a2.7,2.7,0,1,1,0-5.395h4.8Zm0-10.334V19.4h-4.8a3.719,3.719,0,1,0,0,7.437h4.8v3.917a.87.87,0,0,1-.861.876H6.946a.963.963,0,0,1-.925-.876l0-15.229a.972.972,0,0,1,.927-.919H29.39A.869.869,0,0,1,30.25,15.487Zm-9.829-1.9a1.753,1.753,0,0,1,3.391,0Zm7.843,0h-3.4a2.78,2.78,0,0,0-5.487,0H15.868l3.467-7.412a5.337,5.337,0,0,0,6.051-2.045l1.482.689A5.277,5.277,0,0,0,29.5,10.94Zm1.673-3.576a4.226,4.226,0,0,1-2.12-4.752L31.383,6.92Z" transform="translate(-5 -1)" fill="#1c9989" stroke="#1c9989" stroke-miterlimit="10" stroke-width="0.4"/>
+            <g id="Group_7426" data-name="Group 7426" transform="translate(20.445 21.102)">
+              <path id="Path_7798" data-name="Path 7798" d="M46.063,44.371a1.021,1.021,0,1,1,1.021-1.021A1.022,1.022,0,0,1,46.063,44.371Z" transform="translate(-45.042 -42.329)" fill="#1c9989" stroke="#1c9989" stroke-miterlimit="10" stroke-width="0.4"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
