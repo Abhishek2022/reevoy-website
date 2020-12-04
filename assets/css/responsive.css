@@ -37,7 +37,7 @@
         font-size: 20px;
       }
       
-    .card-sm {
+    .card-sm, .circular-img{
         font-size: 20px;
     }
 
@@ -144,7 +144,7 @@
         font-size: 1.4vw;
       }
       
-    .card-sm {
+    .card-sm, .circular-img{
         font-size: 1.4vw;
     }
 
@@ -255,7 +255,7 @@
         font-size: 18px;
       }
       
-    .card-sm {
+    .card-sm, .circular-img{
         font-size: 1.4vw;
     }
 
@@ -373,7 +373,7 @@
       font-size: 16px;
     }
     
-    .card-sm {
+    .card-sm, .circular-img {
         font-size: 16px;
     }
 
