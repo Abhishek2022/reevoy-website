@@ -169,7 +169,7 @@
 }
 
 #investors-banner-text{
-    top: 40%;
+    top: 35%;
 }
 
 #about-us-banner-text{
@@ -253,9 +253,6 @@
     margin-bottom: 5%;
 }
 
-.icon-bar{
-    padding-left: 10%;
-}
 
 .icon-bar img {
     display:block;
@@ -285,8 +282,8 @@
 }
 
 #investors-middle-element img{
-    width: 300px;
-    height: 300px;
+    width: 100%;
+    height: auto;
 }
 
 #card-bottom-margin {
