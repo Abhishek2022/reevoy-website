@@ -142,15 +142,11 @@
 
 #cf7 {
     position:relative;
-    height: 420px;
-    width: 700px;
     margin-bottom: 80px;
     margin-top: 160px;
 }
 
 #cf7 img {
-    height: 420px;
-    width: 700px;
     position: absolute; 
     transition: all 1s ease-out;
     opacity:0;
@@ -271,8 +267,8 @@
 
 .middle-element-icons{
     padding-top: 4%;
-    padding-left: 1%;
-    padding-right: 1%;
+    padding-left: 10%;
+    padding-right: 10%;
     padding-bottom: 4%;
 }  
 

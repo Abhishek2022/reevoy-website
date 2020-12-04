@@ -211,7 +211,7 @@ nav .navbar-nav li a:hover, .navbar-brand:hover{
 }
 
 footer{
-    height: 400px;
+    height: 450px;
     background-color: rgba(41, 41, 41, 1);
     position: relative;
     margin-top: -50px;
@@ -252,6 +252,14 @@ footer button{
     margin-top: 3.5%;
     text-align: center;
     font-size: 20px;
+    opacity: 0.65;
+}
+
+
+.contact-us-address{
+    margin-top: 2%;
+    text-align: left;
+    font-size: 18px;
     opacity: 0.65;
 }
 
