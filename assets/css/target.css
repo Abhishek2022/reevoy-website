@@ -197,6 +197,8 @@
 
 .card-deck {
     margin-bottom: 2%;
+    text-align: justify;
+    text-justify: inter-character;
 }
 
 .card-lg{
