@@ -33,7 +33,7 @@ $(function () {
 
 $(window).scroll(function () {
   $('.section-divider').each(function () {
-      if($(this).position().top <= $(document).scrollTop() && ($(this).position().top + $(this).outerHeight() + 100) > $(document).scrollTop()) {
+    if($(window).scrollTop() >= $(this).offset().top) {
         var currentSection = $(this).attr('id');
         if(currentSection == 'homepage-section') {
           document.getElementById("homepage-link").classList.add("current");
@@ -63,68 +63,17 @@ $(window).scroll(function () {
   });
 })
 
-// // cache the navigation links 
-// var $navigationLinks = $('nav > ul > li > a');
-// // cache (in reversed order) the sections
-// var $sections = $($(".section-divider").get().reverse());
-
-// // map each section id to their corresponding navigation link
-// var sectionIdTonavigationLink = {};
-// $sections.each(function() {
-//     var id = $(this).attr('id');
-//     sectionIdTonavigationLink[id] = $('nav > ul > li > a[href=\\#' + id + ']');
+// $('nav a').on('click', function(event) {
+//   $(this).parent().find('a').removeClass('current');
+//   $(this).addClass('current');
 // });
 
-// // throttle function, enforces a minimum time interval
-// function throttle(fn, interval) {
-//     var lastCall, timeoutId;
-//     return function () {
-//         var now = new Date().getTime();
-//         if (lastCall && now < (lastCall + interval) ) {
-//             // if we are inside the interval we wait
-//             clearTimeout(timeoutId);
-//             timeoutId = setTimeout(function () {
-//                 lastCall = now;
-//                 fn.call();
-//             }, interval - (now - lastCall) );
-//         } else {
-//             // otherwise, we directly call the function 
-//             lastCall = now;
-//             fn.call();
-//         }
-//     };
-// }
-
-// function highlightNavigation() {
-//     // get the current vertical position of the scroll bar
-//     var scrollPosition = $(window).scrollTop();
-
-//     // iterate the sections
-//     $sections.each(function() {
-//         var currentSection = $(this);
-//         // get the position of the section
-//         var sectionTop = currentSection.offset().top;
-
-//         // if the user has scrolled over the top of the section  
-//         if (scrollPosition >= sectionTop) {
-//             // get the section id
-//             var id = currentSection.attr('id');
-//             // get the corresponding navigation link
-//             var $navigationLink = sectionIdTonavigationLink[id];
-//             // if the link is not active
-//             if (!$navigationLink.hasClass('current')) {
-//                 // remove .active class from all the links
-//                 $navigationLinks.removeClass('current');
-//                 // add .active class to the current link
-//                 $navigationLink.addClass('current');
-//             }
-//             // we have found our section, so we return false to exit the each loop
-//             return false;
-//         }
-//     });
-// }
-
-// $(window).scroll( throttle(highlightNavigation,100) );
-
-// // if you don't want to throttle the function use this instead:
-// // $(window).scroll( highlightNavigation );
+// $(window).on('scroll', function() {
+//   $('.section-divider').each(function() {
+//       if($(window).scrollTop() >= $(this).position().top) {
+//           var id = $(this).attr('id');
+//           $('nav a').removeClass('current');
+//           $('nav a[href=#'+ id +']').addClass('current');
+//       }
+//   });
+// });

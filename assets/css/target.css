@@ -197,7 +197,7 @@
 
 .card-deck {
     margin-bottom: 2%;
-    text-align: justify;
+    text-align: left;
     text-justify: inter-character;
 }
 
@@ -230,8 +230,8 @@
     box-shadow: 10px #00000012;
     z-index: 5;
     border: 1px solid white;
-    top: -45%;
-    left: -7%;
+    margin-top: -110px;
+    margin-left: -25px;
     /* -webkit-border-radius: 50px;
 	-moz-border-radius: 50px; */
     /* overflow: hidden;
@@ -242,7 +242,7 @@
 
 .card-sm-text {
     position: relative;
-    top: -45%;
+    /* top: -45%; */
     padding-left: 7%;
 }
 
